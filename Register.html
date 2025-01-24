@@ -1,21 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character encoding and responsive design -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title -->
     <title>Register</title>
   </head>
   <body>
+    <!-- Header section -->
     <h1>Register</h1>
     <h2>SignUp Here</h2>
 
+    <!-- Start of registration form -->
     <form action="#" method="post">
+      <!-- ========== Personal Information Section ========== -->
       <label for="fname">First Name</label>
       <input id="fname" type="text" name="fname" />
 
       <label for="lname">Last Name</label>
       <input id="lname" type="text" name="lname" />
 
+      <!-- ========== Account Credentials Section ========== -->
       <label for="email">Email</label>
       <input id="email" type="email" name="email" required />
 
@@ -31,6 +38,7 @@
       <label for="retypepassword">Retype Password</label>
       <input type="password" id="retypepassword" placeholder="Retype" />
 
+      <!-- ========== Demographic Information Section ========== -->
       <label for="age">Age Group</label>
       <select name="age category" id="age">
         <option value="under 18">under 18</option>
@@ -39,28 +47,32 @@
 
       <label for="country">Country Name</label>
       <select name="country" id="country">
-        <option value="Pakistan">pakistan</option>
+        <option value="Pakistan">Pakistan</option>  <!-- Fixed capitalization -->
         <option value="India">India</option>
-        <option value="Usa">Usa</option>
+        <option value="USA">USA</option>  <!-- Fixed capitalization -->
       </select>
 
+      <!-- ========== Additional Comments Section ========== -->
+      <label for="comment">Your Thoughts</label>
       <textarea
         id="comment"
         name="entry"
         cols="30"
         rows="5"
+        placeholder="Please share your thoughts"  <!-- Added placeholder -->
         required
         minlength="5"
-      >
-plz share your thoughts
-      </textarea>
+      ></textarea>
 
-      <input type="radio" name="gender" id="male" value="male" />
-      <label for="male">male</label>
-      <input type="radio" id="female" name="gender" value="female" />
-      <label for="female">female</label>
+      <!-- ========== Gender Selection Section ========== -->
+      <div>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
 
-      <button type="submit">submit</button>
+      <!-- ========== Form Submission Section ========== -->
+      <button type="submit">Submit</button>
     </form>
-  </body>
-</html>

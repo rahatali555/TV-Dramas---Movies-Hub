@@ -1,3 +1,11 @@
-h1{
-  color: black;
+h1 {
+  background: 
+    radial-gradient(circle, #1a1a1a 0%, #000 100%),
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg=='); /* Grain texture */
+  color: white;
+  padding: 1.5rem;
+}
+
+.title.highlight {
+  color: #e50914; /* Netflix-style red */
 }
