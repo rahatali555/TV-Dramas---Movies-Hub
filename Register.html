@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register</title>
-</head>
-<body>
-  <h1>Register</h1>
-  <h2> 
-    SignUp Here
-  </h2>
-<form action="#" method="post">
-  <label for="fname">First Name</label>
-<input id="fname" type="text" name="fname" >
-<label for="lname">Last Name</label>
-<input id="lname" type="text" name="lname">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <h2>SignUp Here</h2>
 
-<br>
-<label for="age">age group</label>
-<select name="age category" id="age">
-  <option value="under 18">under 18</option>
-  <option value="18+">18+</option>
-</select>
-<label for="email">Email</label>
-<input id="email" type="email" name="email">
-<label for="comment">Comment</label>
-<textarea id="comment"
-name="entry"  cols="30" rows="5">why you here</textarea>
+    <form action="#" method="post">
+      <label for="fname">First Name</label>
+      <input id="fname" type="text" name="fname" />
 
-</form>
-  
-</body>
+      <label for="lname">Last Name</label>
+      <input id="lname" type="text" name="lname" />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        minlength="6"
+        id="password"
+        placeholder="type min length 6"
+        required
+      />
+
+      <label for="retypepassword">Retype Password</label>
+      <input type="password" id="retypepassword" placeholder="Retype" />
+
+      <label for="age">Age Group</label>
+      <select name="age category" id="age">
+        <option value="under 18">under 18</option>
+        <option value="18+">18+</option>
+      </select>
+
+      <label for="country">Country Name</label>
+      <select name="country" id="country">
+        <option value="Pakistan">pakistan</option>
+        <option value="India">India</option>
+        <option value="Usa">Usa</option>
+      </select>
+
+      <textarea
+        id="comment"
+        name="entry"
+        cols="30"
+        rows="5"
+        required
+        minlength="5"
+      >
+plz share your thoughts
+      </textarea>
+
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label>
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
 </html>
