@@ -1,11 +1,6 @@
-h1 {
-  background: 
-    radial-gradient(circle, #1a1a1a 0%, #000 100%),
-    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg=='); /* Grain texture */
-  color: white;
-  padding: 1.5rem;
-}
 
-.title.highlight {
-  color: #e50914; /* Netflix-style red */
+ .title.highlight:hover { 
+  color: #ff4444; /* Brighter red */
+  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5); /* Glowing effect */
+  transition: all 0.3s ease; /* Smooth animation */
 }
