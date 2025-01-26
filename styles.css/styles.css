@@ -4,3 +4,18 @@
   text-shadow: 0 0 12px rgba(229, 9, 20, 0.5); /* Glowing effect */
   transition: all 0.3s ease; /* Smooth animation */
 }
+h1{ font-weight: 900;
+  text-align: center;
+  line-height:1.2 ;
+  letter-spacing:-1.2px ;
+  
+
+
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
