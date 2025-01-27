@@ -1,33 +1,58 @@
-
- .title.highlight:hover { 
-  color: #ff4444; /* Brighter red */
-  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5); /* Glowing effect */
-  transition: all 0.3s ease; /* Smooth animation */
+.title.highlight:hover { 
+  color: #ff4444;               /* Brighter red */
+  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5);  /* Glowing effect */
+  transition: all 0.3s ease;    /* Smooth animation */
 }
-h1{ font-weight: 900;
+
+h1 {
+  font-weight: 900;
   text-align: center;
-  line-height:1.2 ;
-  letter-spacing:-2px ;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-size: 62;
+  font-family: Tahoma, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: -2px;
+  font-size: 48;
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: -2px;
+  font-size: 40;
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: -2px;
+  font-size: 32;
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 26;
   
-
-
-}
-h2{
-
-}
-h3{
-
 }
 
-p{font-weight: 400;
-line-height: 1.5;
-
-
-}
-ul{
+ul {
   list-style: none;
 }
-a{
+
+a {
   text-decoration: none;
 }
-
