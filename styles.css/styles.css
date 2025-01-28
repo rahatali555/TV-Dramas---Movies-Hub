@@ -1,58 +1,48 @@
 .title.highlight:hover { 
-  color: #ff4444;               /* Brighter red */
-  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5);  /* Glowing effect */
-  transition: all 0.3s ease;    /* Smooth animation */
+  color: #ff4444;
+  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5);
+  transition: all 0.3s ease;
 }
 
 h1 {
   font-weight: 900;
   text-align: center;
   line-height: 1.2;
-  letter-spacing: -2px;
-  font-size: 62;
-  font-family: Tahoma, sans-serif;
+  letter-spacing: -1px;
+  font-size: 62px;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
 }
 
 h2 {
   text-align: center;
   line-height: 1.4;
-  letter-spacing: -2px;
-  font-size: 48;
-  font-family: Tahoma, sans-serif;
+  letter-spacing: -1px;
+  font-size: 48px;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   font-weight: 700;
 }
 
 h3 {
-  font-weight: 700;
   text-align: center;
   line-height: 1.4;
-  letter-spacing: -2px;
-  font-size: 40;
-  font-family: Tahoma, sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 40px;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   font-weight: 600;
 }
 
 h4 {
-  font-weight: 700;
   text-align: center;
   line-height: 1.4;
-  letter-spacing: -2px;
-  font-size: 32;
-  font-family: Tahoma, sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 32px;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   font-weight: 600;
 }
 
 p {
   font-weight: 400;
-  line-height: 1.5;
-  font-size: 26;
-  
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
+  line-height: 1.6;
+  font-size: 26px;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
 }
