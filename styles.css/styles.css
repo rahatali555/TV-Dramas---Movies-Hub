@@ -1,118 +1,38 @@
 /* ------- Typography ------- */
 /*
-  h1: 62px / h2: 48px / h3: 38px / h4: 30px / p: 16px / a: 16px / small: 12px
+  h1: 62px / h2: 48px / h3: 38px / h4: 30px / p 20 a px / small: 12px
   Font weight: headings 700 / body 400
   Head line-height: 1.2 / head letter-spacing: -2px
-  Font family: Roboto
+  Font family: Roboto;
+  color
+  /* Primary Color: Teal (#008080) - A vibrant yet calming color that represents creativity and sophistication. */
+/* Secondary Color: Gold (#FFD700) - Adds a touch of luxury and elegance, complementing the teal. */
+/* Tertiary Color: Slate Grey (#708090) - A neutral grey that balances the vibrancy of teal and gold. */
 
+/* Tints and Shades */
+/* Teal Tint: #33CCCC (lighter variant for backgrounds or highlights) */
+/* Teal Shade: #006666 (darker variant for accents or text) */
+/* Gold Tint: #FFE44D (lighter variant for subtle highlights) */
+/* Gold Shade: #CCAC00 (darker variant for depth) */
+/* Slate Grey Tint: #A9A9A9 (lighter variant for softer backgrounds) */
+/* Slate Grey Shade: #4A4A4A (darker variant for contrast and depth) */
 
-  colors 
-  Here’s an expanded version of your **TV Dramas & Movies Hub** color palette with **tints** (lighter) and **shades** (darker) for each color, adding depth and flexibility to your design:
-
----
-
-### **Primary Colors**  
-1. **Charcoal Black** (`#1A1A1A`)  
-   - **Shades**:  
-     - `#0D0D0D` (Ultra Dark) – For heavy accents or footer backgrounds.  
-     - `#333333` (Medium Dark) – Subtle contrast for borders.  
-   - **Tints**:  
-     - `#404040` (Warm Grey) – Use for secondary text or dividers.  
-
-2. **Cinematic Crimson** (`#B9090B`)  
-   - **Tints**:  
-     - `#D64547` (Softer Red) – Hover states or gradients.  
-     - `#FFA8A8` (Pale Red) – Background highlights.  
-   - **Shades**:  
-     - `#8B0000` (Deep Blood Red) – Active buttons or alerts.  
-     - `#4A0000` – Dark accents in footers.  
-
----
-
-### **Secondary Colors**  
-3. **Silver Screen Grey** (`#404040`)  
-   - **Tints**:  
-     - `#666666` – Secondary text/icons.  
-     - `#999999` – Disabled elements.  
-   - **Shades**:  
-     - `#2D2D2D` – Navigation bars.  
-     - `#1F1F1F` – Overlay backgrounds.  
-
-4. **Gold Accent** (`#FFD700`)  
-   - **Tints**:  
-     - `#FFE55C` (Bright Gold) – Hover effects.  
-     - `#FFF4B8` (Soft Gold) – Subtle accents.  
-   - **Shades**:  
-     - `#CCAD00` – Borders or badges.  
-     - `#997F00` – Vintage text highlights.  
-
----
-
-### **Tertiary Colors**  
-5. **Theater Teal** (`#008080`)  
-   - **Tints**:  
-     - `#00B3B3` (Vibrant Teal) – Active links.  
-     - `#B2DFDB` (Muted Teal) – Light backgrounds.  
-   - **Shades**:  
-     - `#004D4D` – Category tags.  
-     - `#002626` – Dark section accents.  
-
-6. **Soft Amber** (`#FFB347`)  
-   - **Tints**:  
-     - `#FFD08A` (Cream) – Notifications.  
-     - `#FFF0D6` (Warm Off-White) – Backgrounds.  
-   - **Shades**:  
-     - `#CC8F39` – Featured banners.  
-     - `#996B2B` – Text on light backgrounds.  
-
----
-
-### **Greyscale Expansion**  
-- **Light Grey** (`#F5F5F5`):  
-  - Tint: `#FFFFFF` (Pure White) – Clean backgrounds.  
-  - Shade: `#E0E0E0` – Subtle dividers.  
-- **Medium Grey** (`#808080`):  
-  - Tint: `#B3B3B3` – Secondary text.  
-  - Shade: `#4D4D4D` – Inactive buttons.  
-- **Dark Grey** (`#2D2D2D`):  
-  - Tint: `#404040` – Secondary surfaces.  
-  - Shade: `#1A1A1A` – Primary text on light backgrounds.  
-
----
-
-### **How to Use Tints & Shades**  
-1. **Depth in Buttons**:  
-   - Base: `#B9090B` (Crimson)  
-   - Hover: `#D64547` (Tint)  
-   - Pressed: `#8B0000` (Shade)  
-
-2. **Gradients**:  
-   - Teal Gradient: `#008080 → #00B3B3` (Background headers).  
-   - Gold Gradient: `#FFD700 → #FFF4B8` (Premium banners).  
-
-3. **Card Layering**:  
-   - Base: `#404040` (Silver Screen Grey)  
-   - Shadow: `#1F1F1F` (Shade)  
-   - Highlight: `#666666` (Tint)  
-
-4. **Text Contrast**:  
-   - Light text (`#F5F5F5`) on `#1A1A1A` (Charcoal).  
-   - Dark text (`#2D2D2D`) on `#FFF0D6` (Amber Tint).  
-
----
-
- 🎥✨
-*/
-
+/* Usage Suggestions: */
+/* - Use Teal as the dominant color for headers, buttons, and key elements. */
+/* - Use Gold for call-to-action buttons, icons, or decorative elements. */
+/* - Use Slate Grey for text, borders, and neutral backgrounds. */
+/* - Incorporate tints and shades to create depth and visual interest without overwhelming the design. */
+  /*  */
 h1, h2, h3 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -2px;
   font-family: "Roboto", sans-serif;
+color:#008080 ;
 }
 
-h1 {
-  text-align: center;    /* Keep primary title centered */
+h1 
+{text-align: center;   
   font-size: 62px;
 }
 
@@ -131,20 +51,43 @@ h4 {
   font-size: 30x;
 }
 
-p {
+
+  p,a .small-size {
   font-weight: 400;
   line-height: 1.5;
-  font-size: 16;
   font-family: "Roboto", sans-serif;
+  color:#4A4A4A ;
+}
+p{
+  font-size:20px;
 }
 
 ul {
   list-style: none;
+
 }
 
-a {
-  font-size:16px
+a {font-size: 16;
+  
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   
 }
+
+.smallsize{
+  font-size: 12px;}
+  .btn{
+    
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16;
+    text-decoration: none;
+  }
+
+  .btn-primary{
+    color: #008080;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16;
+    text-decoration: none;
+
+  }
