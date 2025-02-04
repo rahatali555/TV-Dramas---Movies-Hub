@@ -26,13 +26,22 @@
 /* ======================
    BASE STYLES add in universal selector to remove default properties
    ====================== */
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+   }
    body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #4a4a4a;
   }
-  
+  .container{
+
+    width: 1200px; 
+    margin: 0 auto;
+  }
   ul {
     list-style: none;
   }
@@ -40,6 +49,9 @@
   /* ======================
      TYPOGRAPHY
      ====================== */
+     .nav-bar{
+      margin-bottom: 200px;
+     }
   h1, h2, h3 {
     font-weight: 700;
     line-height: 1.2;
@@ -73,8 +85,11 @@
   
   a {
     font-size: 16px;
+    display: inline-block;
   }
-  
+  span{
+    display: inline-block;
+  }
   .small-size {
     font-size: 12px;
   }
@@ -82,13 +97,20 @@
   /* ======================
      COMPONENTS
      ====================== */
+     
+     .feature-section{
+      margin-bottom: 300px;
+     }
+     
      .feature-img{
       width: 400px;
+      margin-bottom: 200px;
     }
   .btn {
     font-size: 16px;
     text-decoration: none;
     padding: 15px 30px;
+    border-radius: 6px;
   }
   
   /* Primary Button Variant */
@@ -102,6 +124,8 @@
   .btn-primary:active {
     color: white;
     background-color: #006666;
+    
+  
   }
   
   /* Secondary Button Variant */
@@ -136,6 +160,7 @@ border: 2px solid #ccac00;
   .highlight{
     background-color: white;
     padding: 10px 20px;
+    border-radius: 6px;
   }
   .highlight-secondary{
     background-color:#FFD700 ;
@@ -146,14 +171,21 @@ border: 2px solid #ccac00;
   }
   .cta-card{
     background-color:#006666 ;
-    height: 1000px;
+    width: 1000px;
     padding:100px 200px ;
+    border-radius:16px ;
+    margin: 0 auto;
   }
   .logo-md{
     width: 100px;
   }
   .logo-sm{
     width: 80px;
+    
+  }
+  .hero-heading{
+    margin-bottom: 10px;
+
   }
   /* ======================
      LAYOUT SECTIONS
@@ -162,6 +194,8 @@ border: 2px solid #ccac00;
   .footer-section,
   .main-section {
     text-align: center;
+    border-radius: 5px;
+    margin-bottom: 300px;
   }
   .social-icon{
     width: 20px;
